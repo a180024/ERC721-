@@ -26,7 +26,6 @@ if (argv[2] !== "test") {
       hardhat: {},
       mainnet: {
         url: MAINNET_URL,
-        chainId: parseInt(CHAIN_ID, 10),
         gasPrice: 60000000000,
         accounts: [`0x${PRIVATE_KEY}`],
       },
