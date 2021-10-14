@@ -1,0 +1,43 @@
+{
+  "name": "punk",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx hardhat test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ernestng11/punk.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ernestng11/punk/issues"
+  },
+  "homepage": "https://github.com/ernestng11/punk#readme",
+  "devDependencies": {
+    "@nomiclabs/hardhat-ethers": "^2.0.2",
+    "@nomiclabs/hardhat-waffle": "^2.0.1",
+    "@types/chai": "^4.2.21",
+    "@types/mocha": "^9.0.0",
+    "@types/sinon": "^10.0.2",
+    "@types/sinon-chai": "^3.2.5",
+    "chai": "^4.3.4",
+    "ethereum-waffle": "^3.4.0",
+    "ethers": "^5.4.5",
+    "hardhat": "^2.6.1",
+    "mocha": "^7.2.0",
+    "sinon": "^11.1.2",
+    "ts-node": "^10.2.1",
+    "tslint": "^5.12.1",
+    "typescript": "^3.3.3"
+  },
+  "dependencies": {
+    "@openzeppelin/contracts": "^3.4.2",
+    "axios": "^0.21.1",
+    "crypto": "^1.0.1",
+    "dotenv": "^10.0.0",
+    "sinon-chai": "^3.7.0"
+  }
+}
